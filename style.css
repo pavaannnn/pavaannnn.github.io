@@ -94,7 +94,7 @@ header:hover {
     background: white;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    /* color: transparent; */
 }
 
 .nav-links {
@@ -133,18 +133,24 @@ li a:hover::before {
     padding: 0.8rem 1.5rem;
     border-radius: 3rem;
     border: none;
-    font-weight: 500;
-    font-size: 1rem;
-    color:white;
-    cursor: pointer;
-    text-wrap: nowrap;
-    transition: 0.3s ease-in-out;
     background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
+
 .visit-btn:hover {
     background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
     transform: scale(1.03);
 }
+
+.visit-btn a {
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
 #menu-icon {
     font-size: 2rem;
     display: none;
@@ -551,7 +557,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
     max-width: 800px;
     margin: 0 auto;
     background: white;
@@ -562,34 +568,51 @@ section {
 
 .contact-info {
     text-align: center;
-    margin-bottom: 2rem;
     position: relative;
-}
-
-.contact-info::after {
-    content: '';
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 3px;
-    background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
-    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 .contact-info p {
     color: #444;
-    font-size: 1.1rem;
-    margin: 1rem 0;
+    font-size: 1.2rem;
     line-height: 1.6;
+    max-width: 600px;
 }
 
-.contact-form {
-    width: 100%;
+.email-container {
     display: flex;
-    flex-direction: column;
-    gap: 1.8rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 2.5rem;
+    background: linear-gradient(to right, rgba(0, 157, 255, 0.1), rgba(255, 0, 255, 0.1));
+    border-radius: 3rem;
+    transition: all 0.3s ease;
+}
+
+.email-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 157, 255, 0.1);
+    background: linear-gradient(to right, rgba(0, 157, 255, 0.2), rgba(255, 0, 255, 0.2));
+}
+
+.email-container i {
+    font-size: 1.5rem;
+    color: rgb(0, 157, 255);
+}
+
+.email-container a {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.email-container:hover a {
+    color: rgb(0, 157, 255);
 }
 
 .form-group {

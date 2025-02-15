@@ -40,5 +40,4 @@ yarn-error.log*
 # .nuxt/
 
 # Project specific
-assets/images/
 *.log 
