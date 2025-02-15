@@ -87,14 +87,13 @@ header:hover {
     text-wrap: nowrap;
     transition: all 0.3s ease-in-out;
     background: transparent;
+    position: relative;
+    z-index: 1;
 }
 
 .logo:hover {
-    transform: scale(1.05);
-    background: white;
-    -webkit-background-clip: text;
-    background-clip: text;
-    /* color: transparent; */
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
 }
 
 .nav-links {
