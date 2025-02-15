@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo"><span>Pavan Chandra</span></a>
+        <ul class="nav-links">
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" onclick="alert('Blog coming soon!')">Blog</a></li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn">Visit Github</button>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="profile-section">
+                <img src="./assets/images/profile.jpeg" alt="Pavan Chandra" class="profile-pic">
+                
+                <div class="info-box">
+                    <div class="text">
+                        <h3>Hi, I'm</h3>
+                        <h1>Pavan Chandra</h1>
+                        <p class="headline">Machine Learning Engineer & Data Scientist | Specializing in Generative AI, LLMs, System Design, AI Agents, RAG, and Model Optimization.</p>
+                        <span>Machine Learning Engineer & Data Scientist</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <a href="resume.pdf" download class="btn">Download CV</a>
+                    </div>
+
+                    <div class="socials">
+                        <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+    
+        <div class="experience-info">
+            <div class="grid">
+                <!-- Data Scientist II -->
+                <div class="grid-card">
+                    <div class="experience-header">
+                        <div class="role-info">
+                            <h3 class="job-title">Data Scientist II</h3>
+                            <p class="company-duration">
+                                <i class="fas fa-building"></i>
+                                <span class="company">Company Name</span>
+                                <i class="fas fa-calendar-alt"></i>
+                                <span class="duration">March 2023 - Present</span>
+                            </p>
+                        </div>
+                        <div class="company-logo">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="skills-container">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Deep Learning</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Led the development of advanced ML models improving credit decision accuracy by 25%</li>
+                        <li>Architected and deployed scalable ML pipelines processing 1M+ transactions daily</li>
+                        <li>Collaborated with cross-functional teams to implement AI-driven solutions</li>
+                    </ul>
+                </div>
+    
+                <!-- Software Engineer - AI/ML -->
+                <div class="grid-card">
+                    <div class="experience-header">
+                        <div class="role-info">
+                            <h3 class="job-title">Software Engineer - AI/ML</h3>
+                            <p class="company-duration">
+                                <i class="fas fa-building"></i>
+                                <span class="company">Company Name</span>
+                                <i class="fas fa-calendar-alt"></i>
+                                <span class="duration">May 2020 - May 2022</span>
+                            </p>
+                        </div>
+                        <div class="company-logo">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="skills-container">
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Developed and deployed NLP models achieving 92% accuracy in sentiment analysis</li>
+                        <li>Built end-to-end ML pipelines using Python, TensorFlow, and AWS services</li>
+                        <li>Optimized model inference time by 40% through efficient code restructuring</li>
+                        <li>Mentored junior developers and led technical knowledge sharing sessions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skill-icons">
+                    <div class="skill-item">
+                        <i class="devicon-tensorflow-original colored"></i>
+                        <span>TensorFlow</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-pytorch-original colored"></i>
+                        <span>PyTorch</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-python-plain colored"></i>
+                        <span>Scikit-learn</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-brain"></i>
+                        <span>Keras</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-numpy-original colored"></i>
+                        <span>NumPy</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-pandas-original colored"></i>
+                        <span>Pandas</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Matplotlib</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-docker-plain colored"></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-kubernetes-plain colored"></i>
+                        <span>Kubernetes</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-amazonwebservices-original colored"></i>
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-infinity"></i>
+                        <span>MLflow</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-git-plain colored"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-linux-plain"></i>
+                        <span>Linux</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-vscode-plain colored"></i>
+                        <span>VS Code</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="devicon-jupyter-plain colored"></i>
+                        <span>Jupyter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="education" class="education">
+        <h2 class="section-title">Education</h2>
+    
+        <div class="education-container">
+            <!-- Master's Degree -->
+            <div class="education-card">
+                <div class="degree-type">Master's Degree</div>
+                <h3 class="degree-title">Master of Science in Computer Science</h3>
+                <p class="university-duration"><strong>University Name</strong> | 2020 - 2022</p>
+                <div class="degree-info">
+                    <div class="achievement">
+                        <span class="highlight">GPA</span>
+                        <span class="value">3.9/4.0</span>
+                    </div>
+                    <div class="achievement">
+                        <span class="highlight">Focus</span>
+                        <span class="value">Machine Learning & AI</span>
+                    </div>
+                </div>
+                <div class="education-details">
+                    <h4>Thesis</h4>
+                    <p>"Deep Learning Approaches for Natural Language Processing"</p>
+                    <h4>Key Courses</h4>
+                    <ul>
+                        <li>Advanced Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Natural Language Processing</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Bachelor's Degree -->
+            <div class="education-card">
+                <div class="degree-type">Bachelor's Degree</div>
+                <h3 class="degree-title">Bachelor of Technology in Computer Science</h3>
+                <p class="university-duration"><strong>University Name</strong> | 2016 - 2020</p>
+                <div class="degree-info">
+                    <div class="achievement">
+                        <span class="highlight">GPA</span>
+                        <span class="value">3.8/4.0</span>
+                    </div>
+                    <div class="achievement">
+                        <span class="highlight">Honors</span>
+                        <span class="value">First Class</span>
+                    </div>
+                </div>
+                <div class="education-details">
+                    <h4>Specialization</h4>
+                    <p>Major in Computer Science with minor in Mathematics</p>
+                    <h4>Key Courses</h4>
+                    <ul>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Database Systems</li>
+                        <li>Operating Systems</li>
+                        <li>Computer Networks</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project1.jpg" alt="Project 1">
+                </div>
+                <div class="project-content">
+                    <h3>AI-Powered Image Recognition</h3>
+                    <p>A deep learning model that can identify and classify objects in images with 95% accuracy using state-of-the-art CNN architectures.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>OpenCV</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project2.jpg" alt="Project 2">
+                </div>
+                <div class="project-content">
+                    <h3>Natural Language Processing Bot</h3>
+                    <p>An intelligent chatbot that understands and responds to user queries using advanced NLP techniques and transformer models.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>BERT</span>
+                        <span>FastAPI</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project3.jpg" alt="Project 3">
+                </div>
+                <div class="project-content">
+                    <h3>Real-time Data Analytics</h3>
+                    <p>A scalable platform for processing and analyzing streaming data in real-time using distributed computing.</p>
+                    <div class="tech-stack">
+                        <span>Spark</span>
+                        <span>Kafka</span>
+                        <span>AWS</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project4.jpg" alt="Project 4">
+                </div>
+                <div class="project-content">
+                    <h3>Predictive Analytics Dashboard</h3>
+                    <p>Interactive dashboard for visualizing and predicting business metrics using machine learning models.</p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Python</span>
+                        <span>D3.js</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project5.jpg" alt="Project 5">
+                </div>
+                <div class="project-content">
+                    <h3>Recommendation Engine</h3>
+                    <p>Advanced recommendation system using collaborative filtering and deep learning for personalized content suggestions.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>PyTorch</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project6.jpg" alt="Project 6">
+                </div>
+                <div class="project-content">
+                    <h3>Automated Trading System</h3>
+                    <p>ML-powered trading system that analyzes market trends and executes trades automatically based on predictive models.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>Redis</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project7.jpg" alt="Project 7">
+                </div>
+                <div class="project-content">
+                    <h3>Computer Vision Pipeline</h3>
+                    <p>End-to-end computer vision pipeline for real-time object detection and tracking in video streams.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>YOLO</span>
+                        <span>OpenCV</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 8 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project8.jpg" alt="Project 8">
+                </div>
+                <div class="project-content">
+                    <h3>MLOps Automation</h3>
+                    <p>Automated ML pipeline for model training, testing, and deployment with continuous integration and monitoring.</p>
+                    <div class="tech-stack">
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>MLflow</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+            </div>
+            
+            <form class="contact-form" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Subject">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
