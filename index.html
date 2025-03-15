@@ -1,482 +1,611 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-</head>
-<body>
-    
-    <header class="header">
-        <a href="#home" class="logo"><span>Pavan Chandra</span></a>
-        <ul class="nav-links">
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#" onclick="alert('Blog coming soon!')">Blog</a></li>
-        </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <a href="#home" class="logo"><span>Pavan Chandra</span></a>
+            <ul class="nav-links">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#" onclick="alert('Blog coming soon!')">Blog</a>
+                </li>
+            </ul>
 
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <button class="visit-btn"><a href="https://github.com/pavaannnn" target="_blank">Visit Github</a></button>
-    </header>
+            <button class="visit-btn">
+                <a href="https://github.com/pavaannnn" target="_blank"
+                    >Visit Github</a
+                >
+            </button>
+        </header>
 
-    <section id="home" class="home">
-        <div class="home-container">
-            <div class="profile-section">
-                <img src="./assets/images/profile.jpeg" alt="Pavan Chandra" class="profile-pic">
-                
-                <div class="info-box">
-                    <div class="text">
-                        <h3>Hi, I'm</h3>
-                        <h1>Pavan Chandra</h1>
-                        <p class="headline">Full Stack Machine Learning Engineer & Data Scientist | Expert in Full Stack Development, MLOps, Real-time Analytics, and AI-driven Solutions</p>
-                        <span>Full Stack Machine Learning Engineer</span>
-                    </div>
+        <section id="home" class="home">
+            <div class="home-container">
+                <div class="profile-section">
+                    <img
+                        src="./assets/images/profile.jpeg"
+                        alt="Pavan Chandra"
+                        class="profile-pic"
+                    />
 
-                    <div class="btn-group">
-                        <a href="https://drive.google.com/file/d/1aNpJfFBR-bYB5DYQhJH__otX0oFo1ulB/view?usp=sharing" target="_blank" class="btn">Resume</a>
-                    </div>
-
-                    <div class="socials">
-                        <a href="https://github.com/pavaannnn" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/pavan-chandra-sanda/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="experience" class="experience">
-        <h2 class="section-title">Experience</h2>
-    
-        <div class="experience-info">
-            <div class="grid">
-                <!-- Data Scientist II -->
-                <div class="grid-card">
-                    <div class="experience-header">
-                        <div class="role-info">
-                            <h3 class="job-title">Full Stack Data Scientist</h3>
-                            <p class="company-duration">
-                                <i class="fas fa-building"></i>
-                                <span class="company">JerseySTEM</span>
-                                <i class="fas fa-calendar-alt"></i>
-                                <span class="duration">March 2024 - February 2025</span>
+                    <div class="info-box">
+                        <div class="text">
+                            <h3>Hi, I'm</h3>
+                            <h1>Pavan Chandra</h1>
+                            <p class="headline">
+                                Full Stack Machine Learning Engineer & Data
+                                Scientist | Expert in Full Stack Development,
+                                MLOps, Real-time Analytics, and AI-driven
+                                Solutions
                             </p>
+                            <span>Full Stack Machine Learning Engineer</span>
                         </div>
-                        <div class="company-logo">
-                            <i class="fas fa-chart-line"></i>
+
+                        <div class="btn-group">
+                            <a
+                                href="https://drive.google.com/file/d/1aNpJfFBR-bYB5DYQhJH__otX0oFo1ulB/view?usp=sharing"
+                                target="_blank"
+                                class="btn"
+                                >Resume</a
+                            >
                         </div>
-                    </div>
-                    <div class="skills-container">
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">FastAPI</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">XGBoost</span>
-                        <span class="skill-tag">TensorFlow</span>
-                    </div>
-                    <ul class="job-description">
-                        <li>Engineered a real-time analytics platform using React, FastAPI, and PostgreSQL, enabling personalized engagement tracking and increasing program reach by 40%</li>
-                        <li>Automated data collection and reporting pipelines, cutting manual workload by 60% and enabling faster, more informed decision-making for STEM initiatives</li>
-                        <li>Developed predictive donor analytics models using XGBoost and TensorFlow, improving sponsorship targeting and increasing funding by 25%</li>
-                        <li>Enhanced user engagement insights, driving a 15% boost in program completion rates for underserved communities</li>
-                    </ul>
-                </div>
-    
-                <!-- Software Engineer - AI/ML -->
-                <div class="grid-card">
-                    <div class="experience-header">
-                        <div class="role-info">
-                            <h3 class="job-title">Full Stack Machine Learning Engineer</h3>
-                            <p class="company-duration">
-                                <i class="fas fa-building"></i>
-                                <span class="company">Reno Plas</span>
-                                <i class="fas fa-calendar-alt"></i>
-                                <span class="duration">May 2020 - May 2022</span>
-                            </p>
+
+                        <div class="socials">
+                            <a
+                                href="https://github.com/pavaannnn"
+                                target="_blank"
+                                ><i class="fa-brands fa-github"></i
+                            ></a>
+                            <a
+                                href="https://www.linkedin.com/in/pavan-chandra-sanda/"
+                                target="_blank"
+                                ><i class="fa-brands fa-linkedin"></i
+                            ></a>
                         </div>
-                        <div class="company-logo">
-                            <i class="fas fa-code"></i>
-                        </div>
-                    </div>
-                    <div class="skills-container">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">FastAPI</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">MLflow</span>
-                    </div>
-                    <ul class="job-description">
-                        <li>Implemented AI-driven churn prediction models with Kubernetes and MLflow, leveraging ML techniques for personalization, reducing customer churn by 18%</li>
-                        <li>Built a real-time fraud detection for system for a fintech client using Python, FastAPI, and PostgreSQL, reducing financial losses by 27% while processing 10M+ daily transactions</li>
-                        <li>Optimized dynamic pricing strategies for a SaaS client with Node.js, Redis, and GraphQL, increasing average order value by 15%, driving higher revenue per user across 2M+ customers</li>
-                        <li>Built a scalable MoE-based (Mixture of Experts) recommendation engine with TensorFlow and MongoDB, improving customer engagement by 40% and driving 22% more repeat purchases</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <h2 class="section-title">Skills</h2>
-        
-        <div class="skills-container">
-            <div class="skills-box">
-                <div class="skill-icons">
-                    <!-- Programming Languages -->
-                    <div class="skill-item">
-                        <i class="devicon-python-plain colored"></i>
-                        <span>Python</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-cplusplus-plain colored"></i>
-                        <span>C++</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-java-plain colored"></i>
-                        <span>Java</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-typescript-plain colored"></i>
-                        <span>TypeScript</span>
-                    </div>
-
-                    <!-- Frontend -->
-                    <div class="skill-item">
-                        <i class="devicon-react-original colored"></i>
-                        <span>React</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-nextjs-original-wordmark colored"></i>
-                        <span>Next.js</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-tailwindcss-plain colored"></i>
-                        <span>Tailwind</span>
-                    </div>
-
-                    <!-- Backend -->
-                    <div class="skill-item">
-                        <i class="devicon-nodejs-plain colored"></i>
-                        <span>Node.js</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-express-original colored"></i>
-                        <span>Express</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-fastapi-plain colored"></i>
-                        <span>FastAPI</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-flask-original colored"></i>
-                        <span>Flask</span>
-                    </div>
-
-                    <!-- Databases -->
-                    <div class="skill-item">
-                        <i class="devicon-postgresql-plain colored"></i>
-                        <span>PostgreSQL</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-mongodb-plain colored"></i>
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-redis-plain colored"></i>
-                        <span>Redis</span>
-                    </div>
-
-                    <!-- ML/AI -->
-                    <div class="skill-item">
-                        <i class="devicon-tensorflow-original colored"></i>
-                        <span>TensorFlow</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-pytorch-original colored"></i>
-                        <span>PyTorch</span>
-                    </div>
-
-                    <!-- Cloud & DevOps -->
-                    <div class="skill-item">
-                        <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-                        <span>AWS</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-azure-plain-wordmark colored"></i>
-                        <span>Azure</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-docker-plain colored"></i>
-                        <span>Docker</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-kubernetes-plain colored"></i>
-                        <span>Kubernetes</span>
-                    </div>
-
-                    <!-- Tools -->
-                    <div class="skill-item">
-                        <i class="devicon-git-plain colored"></i>
-                        <span>Git</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-jenkins-plain colored"></i>
-                        <span>Jenkins</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="devicon-grafana-original-wordmark colored"></i>
-                        <span>Grafana</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section id="experience" class="experience">
+            <h2 class="section-title">Experience</h2>
 
-    
-
-    <section id="education" class="education">
-        <h2 class="section-title">Education</h2>
-    
-        <div class="education-container">
-            <!-- Master's Degree -->
-            <div class="education-card">
-                <div class="degree-type">Master's Degree</div>
-                <h3 class="degree-title">Master of Science in Computational Science (Data Science)</h3>
-                <p class="university-duration"><strong>University at Buffalo</strong> | 2020 - 2022</p>
-                <div class="degree-info">
-                    <div class="achievement">
-                        <span class="highlight">GPA</span>
-                        <span class="value">4.0/4.0</span>
+            <div class="experience-info">
+                <div class="grid">
+                    <!-- Software Engineer -->
+                    <div class="grid-card">
+                        <div class="experience-header">
+                            <div class="role-info">
+                                <h3 class="job-title">
+                                    Full Stack Data Scientist
+                                </h3>
+                                <p class="company-duration">
+                                    <i class="fas fa-building"></i>
+                                    <span class="company">JerseySTEM</span>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span class="duration"
+                                        >March 2024 - February 2025</span
+                                    >
+                                </p>
+                            </div>
+                            <div class="company-logo">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="skills-container">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">XGBoost</span>
+                            <span class="skill-tag">TensorFlow</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>
+                                Engineered a real-time analytics platform using
+                                React, FastAPI, and PostgreSQL, enabling
+                                personalized engagement tracking and increasing
+                                program reach by 40%
+                            </li>
+                            <li>
+                                Automated data collection and reporting
+                                pipelines, cutting manual workload by 60% and
+                                enabling faster, more informed decision-making
+                                for STEM initiatives
+                            </li>
+                            <li>
+                                Developed predictive donor analytics models
+                                using XGBoost and TensorFlow, improving
+                                sponsorship targeting and increasing funding by
+                                25%
+                            </li>
+                            <li>
+                                Enhanced user engagement insights, driving a 15%
+                                boost in program completion rates for
+                                underserved communities
+                            </li>
+                        </ul>
                     </div>
-                    <div class="achievement">
-                        <span class="highlight">Focus</span>
-                        <span class="value">Data & Machine Learning</span>
+
+                    <!-- Software Engineer  -->
+                    <div class="grid-card">
+                        <div class="experience-header">
+                            <div class="role-info">
+                                <h3 class="job-title">
+                                    Full Stack Machine Learning Engineer
+                                </h3>
+                                <p class="company-duration">
+                                    <i class="fas fa-building"></i>
+                                    <span class="company">Reno Plas</span>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span class="duration"
+                                        >May 2020 - May 2022</span
+                                    >
+                                </p>
+                            </div>
+                            <div class="company-logo">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="skills-container">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">MLflow</span>
+                        </div>
+                        <ul class="job-description">
+                            <li>
+                                Implemented AI-driven churn prediction models
+                                with Kubernetes and MLflow, leveraging ML
+                                techniques for personalization, reducing
+                                customer churn by 18%
+                            </li>
+                            <li>
+                                Built a real-time fraud detection for system for
+                                a fintech client using Python, FastAPI, and
+                                PostgreSQL, reducing financial losses by 27%
+                                while processing 10M+ daily transactions
+                            </li>
+                            <li>
+                                Optimized dynamic pricing strategies for a SaaS
+                                client with Node.js, Redis, and GraphQL,
+                                increasing average order value by 15%, driving
+                                higher revenue per user across 2M+ customers
+                            </li>
+                            <li>
+                                Built a scalable MoE-based (Mixture of Experts)
+                                recommendation engine with TensorFlow and
+                                MongoDB, improving customer engagement by 40%
+                                and driving 22% more repeat purchases
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="education-details">
-                    <!-- <h4>Thesis</h4>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-container">
+                <div class="skills-box">
+                    <div class="skill-icons">
+                        <!-- Programming Languages -->
+                        <div class="skill-item">
+                            <i class="devicon-python-plain colored"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-cplusplus-plain colored"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-java-plain colored"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-typescript-plain colored"></i>
+                            <span>TypeScript</span>
+                        </div>
+
+                        <!-- Frontend -->
+                        <div class="skill-item">
+                            <i class="devicon-react-original colored"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i
+                                class="devicon-nextjs-original-wordmark colored"
+                            ></i>
+                            <span>Next.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-tailwindcss-plain colored"></i>
+                            <span>Tailwind</span>
+                        </div>
+
+                        <!-- Backend -->
+                        <div class="skill-item">
+                            <i class="devicon-nodejs-plain colored"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-express-original colored"></i>
+                            <span>Express</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-fastapi-plain colored"></i>
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-flask-original colored"></i>
+                            <span>Flask</span>
+                        </div>
+
+                        <!-- Databases -->
+                        <div class="skill-item">
+                            <i class="devicon-postgresql-plain colored"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-mongodb-plain colored"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-redis-plain colored"></i>
+                            <span>Redis</span>
+                        </div>
+
+                        <!-- ML/AI -->
+                        <div class="skill-item">
+                            <i class="devicon-tensorflow-original colored"></i>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-pytorch-original colored"></i>
+                            <span>PyTorch</span>
+                        </div>
+
+                        <!-- Cloud & DevOps -->
+                        <div class="skill-item">
+                            <i
+                                class="devicon-amazonwebservices-plain-wordmark colored"
+                            ></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-azure-plain-wordmark colored"></i>
+                            <span>Azure</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-docker-plain colored"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-kubernetes-plain colored"></i>
+                            <span>Kubernetes</span>
+                        </div>
+
+                        <!-- Tools -->
+                        <div class="skill-item">
+                            <i class="devicon-git-plain colored"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-jenkins-plain colored"></i>
+                            <span>Jenkins</span>
+                        </div>
+                        <div class="skill-item">
+                            <i
+                                class="devicon-grafana-original-wordmark colored"
+                            ></i>
+                            <span>Grafana</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education-container">
+                <!-- Master's Degree -->
+                <div class="education-card">
+                    <div class="degree-type">Master's Degree</div>
+                    <h3 class="degree-title">
+                        Master of Science in Computational Science (Data
+                        Science)
+                    </h3>
+                    <p class="university-duration">
+                        <strong>University at Buffalo</strong> | 2020 - 2022
+                    </p>
+                    <div class="degree-info">
+                        <div class="achievement">
+                            <span class="highlight">GPA</span>
+                            <span class="value">4.0/4.0</span>
+                        </div>
+                        <div class="achievement">
+                            <span class="highlight">Focus</span>
+                            <span class="value">Data & Machine Learning</span>
+                        </div>
+                    </div>
+                    <div class="education-details">
+                        <!-- <h4>Thesis</h4>
                     <p>"Deep Learning Approaches for Natural Language Processing"</p> -->
-                    <h4>Key Courses</h4>
-                    <ul>
-                        <li>Advanced Machine Learning</li>
-                        <li>Deep Learning</li>
-                        <li>Natural Language Processing</li>
-                        <li>Computer Vision</li>
-                    </ul>
-                </div>
-            </div>
-    
-            <!-- Bachelor's Degree -->
-            <div class="education-card">
-                <div class="degree-type">Bachelor's Degree</div>
-                <h3 class="degree-title">Bachelor of Technology in Engineering Science</h3>
-                <p class="university-duration"><strong>IIT Hyderabad</strong> | 2018 - 2022</p>
-                <div class="degree-info">
-                    <div class="achievement">
-                        <span class="highlight">GPA</span>
-                        <span class="value">3.0/4.0</span>
-                    </div>
-                    <div class="achievement">
-                        <span class="highlight">Focus</span>
-                        <span class="value">Mathematics for AI</span>
+                        <h4>Key Courses</h4>
+                        <ul>
+                            <li>Advanced Machine Learning</li>
+                            <li>Deep Learning</li>
+                            <li>Natural Language Processing</li>
+                            <li>Computer Vision</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="education-details">
-                    <h4>Key Courses</h4>
-                    <ul>
-                        <li>Data Structures & Algorithms</li>
-                        <li>Database Systems</li>
-                        <li>Operating Systems</li>
-                        <li>Computer Networks</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="projects" class="projects">
-        <h2 class="section-title">Projects</h2>
-        
-        <div class="projects-container">
-            <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="project1.jpg" alt="Project 1">
-                </div>
-                <div class="project-content">
-                    <h3>AI-Powered Image Recognition</h3>
-                    <p>A deep learning model that can identify and classify objects in images with 95% accuracy using state-of-the-art CNN architectures.</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>TensorFlow</span>
-                        <span>OpenCV</span>
+                <!-- Bachelor's Degree -->
+                <div class="education-card">
+                    <div class="degree-type">Bachelor's Degree</div>
+                    <h3 class="degree-title">
+                        Bachelor of Technology in Engineering Science
+                    </h3>
+                    <p class="university-duration">
+                        <strong>IIT Hyderabad</strong> | 2018 - 2022
+                    </p>
+                    <div class="degree-info">
+                        <div class="achievement">
+                            <span class="highlight">GPA</span>
+                            <span class="value">3.0/4.0</span>
+                        </div>
+                        <div class="achievement">
+                            <span class="highlight">Focus</span>
+                            <span class="value">Mathematics for AI</span>
+                        </div>
                     </div>
-                    <a href="#" class="project-link">
-                        <i class="fab fa-github"></i>
-                        View Project
-                    </a>
-                </div>
-            </div>
-
-            <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="project2.jpg" alt="Project 2">
-                </div>
-                <div class="project-content">
-                    <h3>Natural Language Processing Bot</h3>
-                    <p>An intelligent chatbot that understands and responds to user queries using advanced NLP techniques and transformer models.</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>BERT</span>
-                        <span>FastAPI</span>
+                    <div class="education-details">
+                        <h4>Key Courses</h4>
+                        <ul>
+                            <li>Data Structures & Algorithms</li>
+                            <li>Database Systems</li>
+                            <li>Operating Systems</li>
+                            <li>Computer Networks</li>
+                        </ul>
                     </div>
-                    <a href="#" class="project-link">
-                        <i class="fab fa-github"></i>
-                        View Project
-                    </a>
                 </div>
             </div>
+        </section>
 
-            <!-- Project 3 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="project3.jpg" alt="Project 3">
-                </div>
-                <div class="project-content">
-                    <h3>Real-time Data Analytics</h3>
-                    <p>A scalable platform for processing and analyzing streaming data in real-time using distributed computing.</p>
-                    <div class="tech-stack">
-                        <span>Spark</span>
-                        <span>Kafka</span>
-                        <span>AWS</span>
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project1.jpg" alt="Project 1" />
                     </div>
-                    <a href="#" class="project-link">
-                        <i class="fab fa-github"></i>
-                        View Project
-                    </a>
-                </div>
-            </div>
-
-            <!-- Project 4 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="project4.jpg" alt="Project 4">
-                </div>
-                <div class="project-content">
-                    <h3>Predictive Analytics Dashboard</h3>
-                    <p>Interactive dashboard for visualizing and predicting business metrics using machine learning models.</p>
-                    <div class="tech-stack">
-                        <span>React</span>
-                        <span>Python</span>
-                        <span>D3.js</span>
+                    <div class="project-content">
+                        <h3>AI-Powered Image Recognition</h3>
+                        <p>
+                            A deep learning model that can identify and classify
+                            objects in images with 95% accuracy using
+                            state-of-the-art CNN architectures.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
                     </div>
-                    <a href="#" class="project-link">
-                        <i class="fab fa-github"></i>
-                        View Project
-                    </a>
                 </div>
-            </div>
 
-            <!-- Project 5 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="project5.jpg" alt="Project 5">
-                </div>
-                <div class="project-content">
-                    <h3>Recommendation Engine</h3>
-                    <p>Advanced recommendation system using collaborative filtering and deep learning for personalized content suggestions.</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>PyTorch</span>
-                        <span>MongoDB</span>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project2.jpg" alt="Project 2" />
                     </div>
-                    <a href="#" class="project-link">
-                        <i class="fab fa-github"></i>
-                        View Project
-                    </a>
-                </div>
-            </div>
-
-            <!-- Project 6 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="project6.jpg" alt="Project 6">
-                </div>
-                <div class="project-content">
-                    <h3>Automated Trading System</h3>
-                    <p>ML-powered trading system that analyzes market trends and executes trades automatically based on predictive models.</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>Scikit-learn</span>
-                        <span>Redis</span>
+                    <div class="project-content">
+                        <h3>Natural Language Processing Bot</h3>
+                        <p>
+                            An intelligent chatbot that understands and responds
+                            to user queries using advanced NLP techniques and
+                            transformer models.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>BERT</span>
+                            <span>FastAPI</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
                     </div>
-                    <a href="#" class="project-link">
-                        <i class="fab fa-github"></i>
-                        View Project
-                    </a>
                 </div>
-            </div>
 
-            <!-- Project 7 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="project7.jpg" alt="Project 7">
-                </div>
-                <div class="project-content">
-                    <h3>Computer Vision Pipeline</h3>
-                    <p>End-to-end computer vision pipeline for real-time object detection and tracking in video streams.</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>YOLO</span>
-                        <span>OpenCV</span>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project3.jpg" alt="Project 3" />
                     </div>
-                    <a href="#" class="project-link">
-                        <i class="fab fa-github"></i>
-                        View Project
-                    </a>
-                </div>
-            </div>
-
-            <!-- Project 8 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="project8.jpg" alt="Project 8">
-                </div>
-                <div class="project-content">
-                    <h3>MLOps Automation</h3>
-                    <p>Automated ML pipeline for model training, testing, and deployment with continuous integration and monitoring.</p>
-                    <div class="tech-stack">
-                        <span>Docker</span>
-                        <span>Kubernetes</span>
-                        <span>MLflow</span>
+                    <div class="project-content">
+                        <h3>Real-time Data Analytics</h3>
+                        <p>
+                            A scalable platform for processing and analyzing
+                            streaming data in real-time using distributed
+                            computing.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Spark</span>
+                            <span>Kafka</span>
+                            <span>AWS</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
                     </div>
-                    <a href="#" class="project-link">
-                        <i class="fab fa-github"></i>
-                        View Project
-                    </a>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="contact" class="contact">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <p>Feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
-                <div class="email-container">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:pavanchandrasanda@gmail.com">pavanchandrasanda@gmail.com</a>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project4.jpg" alt="Project 4" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Predictive Analytics Dashboard</h3>
+                        <p>
+                            Interactive dashboard for visualizing and predicting
+                            business metrics using machine learning models.
+                        </p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Python</span>
+                            <span>D3.js</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project5.jpg" alt="Project 5" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Recommendation Engine</h3>
+                        <p>
+                            Advanced recommendation system using collaborative
+                            filtering and deep learning for personalized content
+                            suggestions.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project6.jpg" alt="Project 6" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Automated Trading System</h3>
+                        <p>
+                            ML-powered trading system that analyzes market
+                            trends and executes trades automatically based on
+                            predictive models.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Redis</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project7.jpg" alt="Project 7" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Computer Vision Pipeline</h3>
+                        <p>
+                            End-to-end computer vision pipeline for real-time
+                            object detection and tracking in video streams.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>YOLO</span>
+                            <span>OpenCV</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project8.jpg" alt="Project 8" />
+                    </div>
+                    <div class="project-content">
+                        <h3>MLOps Automation</h3>
+                        <p>
+                            Automated ML pipeline for model training, testing,
+                            and deployment with continuous integration and
+                            monitoring.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>MLflow</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <script src="script.js"></script>
-</body>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>
+                        Feel free to reach out! I'm always open to discussing
+                        new projects, creative ideas, or opportunities to be
+                        part of your visions.
+                    </p>
+                    <div class="email-container">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:pavanchandrasanda@gmail.com"
+                            >pavanchandrasanda@gmail.com</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
 </html>
